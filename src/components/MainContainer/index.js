@@ -8,10 +8,10 @@ import Project from "../Project";
 import Resume from "../Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function MainContainer() {
+function MainContainer({setPage}) {
   return (
     <Router>
-      <Header />
+      <Header setPage={setPage}/>
       <Switch>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
