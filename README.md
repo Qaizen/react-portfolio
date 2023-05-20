@@ -5,7 +5,7 @@
 
 
 ### Link to deployed React Portfolio:
-[Steven's React Portfolio]()
+[Steven's React Portfolio](https://qaizen.github.io/react-portfolio/)
 
 ### Link to GitHub:
 [Steven's GitHub](https://github.com/Qaizen/react-portfolio)
