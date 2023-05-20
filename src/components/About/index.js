@@ -12,7 +12,7 @@ function About() {
           </h1>
           <div className="d-flex justify-content-around">
             <div sm={12} md={6} lg={4} className="p-2 ">
-              <Image src={SteveImg} roundedCircle width="180vw" height="280vw" />
+              <Image src={SteveImg} width="180vw" height="280vw" />
             </div>
             <div className="p-3">
               <p classname="about-text">
