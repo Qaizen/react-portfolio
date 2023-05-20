@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
-// import watercolorBanner from "../../assets/watercolor-splash-banner.png";
+import watercolorBanner from "../../assets/watercolor-splash-banner.png";
 
 function Banner({setPage}) {
   //looping through words
@@ -97,12 +97,12 @@ function Banner({setPage}) {
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }>
-                  {/* <img
+                  <img
                     src={watercolorBanner}
                     alt="Header Img"
                     width="450"
                     height="450"
-                  /> */}
+                  />
                 </div>
               )}
             </TrackVisibility>
