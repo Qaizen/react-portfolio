@@ -13,11 +13,11 @@ function MainContainer({setPage}) {
     <Router>
       <Header setPage={setPage}/>
       <Switch>
-        <Route exact path="/react-portfolio/" component={About} />
-        <Route exact path="/react-portfolio/about" component={About} />
-        <Route exact path="/react-portfolio/portfolio" component={Project} />
-        <Route exact path="/react-portfolio/resume" component={Resume} />
-        <Route exact path="/react-portfolio/contact" component={ContactForm} />
+        <Route exact path="/" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Project} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/contact" component={ContactForm} />
       </Switch>
       <Footer />
     </Router>
