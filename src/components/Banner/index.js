@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
-import watercolorBanner from "../../assets/watercolor-splash-banner.png";
+import ninjaCode from "../../assets/ninjaCode.webp";
 
 function Banner({setPage}) {
   //looping through words
@@ -66,9 +66,9 @@ function Banner({setPage}) {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
-                  className={
+                  className={`${
                     isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
+                  }`}
                 >
                   <span className="tagline">Welcome to My Portfolio</span>
                   <h1>
@@ -94,13 +94,14 @@ function Banner({setPage}) {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
-                  className={
+                  className={`${
                     isVisible ? "animate__animated animate__zoomIn" : ""
-                  }>
+                  }`}
+                >
                   <img
-                    src={watercolorBanner}
-                    alt="Header Img"
-                    width="450"
+                    src={ninjaCode}
+                    alt="ninjaCode splash"
+                    width="550"
                     height="450"
                   />
                 </div>

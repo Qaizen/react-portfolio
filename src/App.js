@@ -11,7 +11,7 @@ function App() {
   const [page, setPage] = useState("splash");
   
   return (
-    <div>
+    <div className="App">
      {page === 'splash' ? <Banner setPage={setPage} />: 
       <MainContainer page={page} setPage={setPage}/>
       }
