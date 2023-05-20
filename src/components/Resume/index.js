@@ -7,9 +7,9 @@ function Resume() {
   return (
     <section id="resume">
       <Container>
-        <Row className="resume-section d-flex align-items-center flex-column">
+      <Row className="resume-section d-flex align-items-center flex-column">
           <h1 className="title">Technical Skills and Experience</h1>
-          <div className="resume-btn">
+          <div className="resume-btn d-flex justify-content-center"> {/* Updated CSS class */}
             <Button
               href="https://1drv.ms/w/s!Aka643mjyMAQpXNKe26V0EcyhqTG?e=sjiCXA" 
               target="_blank"
@@ -23,8 +23,10 @@ function Resume() {
         </Row>
         <div className="d-flex justify-content-around">
           <Card className="card-box">
-          <Card.Header className="card-top">Frontend</Card.Header>
-            <Card.Body>           
+          <Card.Header className="card-top" style={{ color: "black" }}>
+              Frontend
+            </Card.Header>
+            <Card.Body style={{ color: "black" }}>          
                 <ul>
                   <li>JavaScript</li>
                   <li>HTML</li>
@@ -36,8 +38,8 @@ function Resume() {
             </Card.Body>
           </Card>
           <Card className="card-box">
-          <Card.Header>Backend</Card.Header>
-            <Card.Body>
+          <Card.Header style={{ color: "black" }}>Backend</Card.Header>
+            <Card.Body style={{ color: "black" }}>
               <ul>
                 <li>NoSQL</li>
                 <li>APIs</li>
