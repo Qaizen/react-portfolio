@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import ninjaCode from "../../assets/ninjaCode.webp";
 
-function Banner({setPage}) {
+function Banner({ setPage }) {
   //looping through words
   const [loopNum, setLoopNum] = useState(0);
   //words being typed out/deleted
@@ -12,9 +12,9 @@ function Banner({setPage}) {
   //displaying current text
   const [text, setText] = useState("");
   // rotating words
-  const toRotate = ["Software Developer", "Software Engineer ", "Jr Developer"];
+  const toRotate = ["Software Developer.", "Software Engineer. ", "Jr Developer."];
   //time between each text typed out
-  const period = 1000;
+  const period = 100;
   //determines how fast each letter is typed
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
@@ -55,7 +55,6 @@ function Banner({setPage}) {
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
-    
   };
 
   return (
@@ -71,12 +70,12 @@ function Banner({setPage}) {
                   }`}
                 >
                   <span className="tagline">Welcome to My Portfolio</span>
-                  <h1>
+                  <h1 style={{ lineHeight: "1.5" }}>
                     {`Hi! I'm Steven Nguyen, a `}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Software Developer", "Software Engineer"]'
+                      data-rotate='[ "Software Developer.", "Software Engineer."]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
