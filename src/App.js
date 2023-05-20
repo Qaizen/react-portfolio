@@ -12,9 +12,11 @@ function App() {
   
   return (
     <div className="App">
-     {page === 'splash' ? <Banner setPage={setPage} />: 
-      <MainContainer page={page} setPage={setPage}/>
-      }
+      {page === "splash" ? (
+        <Banner setPage={setPage} />
+      ) : (
+        <MainContainer page={page} setPage={setPage} />
+      )}
     </div>
   );
 }

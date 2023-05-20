@@ -15,7 +15,7 @@ function About() {
               <Image src={SteveImg} width="280vw" height="380vw" />
             </div>
             <div className="p-3">
-              <p classname="about-text">
+              <p className="about-text">
                 I'm a Full Stack Web Developer and Rad Dad of 2.  I am proficient in JavaScript, CSS, HTML, Bootstrap, MySQL, React, Node.js, Express.js, MongoDB, Apollo GraphQL, and GIT/Github. When I'm not coding I enjoy martial arts, traveling, and unlocking new experiences wih the fam.   I look forward to working with you in the near future!
               </p>
             </div>
