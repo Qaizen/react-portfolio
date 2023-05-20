@@ -23,7 +23,7 @@ function Resume() {
         </Row>
         <div className="d-flex justify-content-around">
           <Card className="card-box">
-          <Card.Header>Frontend</Card.Header>
+          <Card.Header className="card-top">Frontend</Card.Header>
             <Card.Body>           
                 <ul>
                   <li>JavaScript</li>
