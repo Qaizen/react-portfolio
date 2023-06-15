@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.30535dc6.css",
-    "main.js": "/react-portfolio/static/js/main.80810f0a.js",
+    "main.js": "/react-portfolio/static/js/main.24f90327.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Steve-img.jpg": "/react-portfolio/static/media/Steve-img.c7101f7ffe8c87fcac73.jpg",
     "static/media/HappyHour.png": "/react-portfolio/static/media/HappyHour.c513aa49670a94400d34.png",
     "static/media/ninjaCode.webp": "/react-portfolio/static/media/ninjaCode.47415ec870676dc13faa.webp",
     "static/media/HobbyBox.jpeg": "/react-portfolio/static/media/HobbyBox.05824711c61c15d13e8c.jpeg",
+    "static/media/curious2.jpeg": "/react-portfolio/static/media/curious2.f382bc990e5af1ed1adc.jpeg",
     "static/media/weatherdash.jpeg": "/react-portfolio/static/media/weatherdash.11f02cc2ecbb4e963b50.jpeg",
     "static/media/TechBlog.jpeg": "/react-portfolio/static/media/TechBlog.8a564213f9bebe5757d0.jpeg",
     "static/media/CodeQuiz2.jpg": "/react-portfolio/static/media/CodeQuiz2.c65fc386ef46fed68471.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.30535dc6.css.map": "/react-portfolio/static/css/main.30535dc6.css.map",
-    "main.80810f0a.js.map": "/react-portfolio/static/js/main.80810f0a.js.map",
+    "main.24f90327.js.map": "/react-portfolio/static/js/main.24f90327.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30535dc6.css",
-    "static/js/main.80810f0a.js"
+    "static/js/main.24f90327.js"
   ]
 }
