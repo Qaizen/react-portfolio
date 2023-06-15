@@ -12,7 +12,7 @@ import project2 from "../../assets/TechBlog.jpeg";
 import project3 from "../../assets/weatherdash.jpeg";
 import project4 from "../../assets/CodeQuiz2.jpg";
 import project5 from "../../assets/HappyHour.png";
-// import project6 from "../../assets/test.jpg";
+import project5 from "../../assets/curious.jpeg";
 
 function Project() {
   const projects = [
@@ -54,13 +54,13 @@ function Project() {
       gitLink: "https://github.com/Qaizen/TheHappyHour",
       link:"https://qaizen.github.io/TheHappyHour/"
     },
-    // {
-    //   title: "Final Project",
-    //   description: "MERN",
-    //   imgUrl: project6,
-    //   gitLink: "test",
-    //   link:"test"
-    // },
+    {
+      title: "Curious Chronicles",
+      description: "Online family journal",
+      imgUrl: project6,
+      gitLink: "https://github.com/Qaizen/curious-chronicles",
+      link:"https://project3-test.herokuapp.com/"
+    },
   ];
 
   return (

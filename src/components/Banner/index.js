@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import ninjaCode from "../../assets/ninjaCode.webp";
+import { Link } from 'react-router-dom';
 
 function Banner({ setPage }) {
   //looping through words
@@ -81,7 +82,7 @@ function Banner({ setPage }) {
                     </span>
                   </h1>
 
-                  <button onClick={() => setPage("about")}>
+                  <button onClick={() => setPage("/about")}>
                     {" "}
                     &nbsp;Let's Connect <ArrowRightCircle size={25} />
                   </button>
