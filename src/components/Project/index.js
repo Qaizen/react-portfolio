@@ -12,7 +12,7 @@ import project2 from "../../assets/TechBlog.jpeg";
 import project3 from "../../assets/weatherdash.jpeg";
 import project4 from "../../assets/CodeQuiz2.jpg";
 import project5 from "../../assets/HappyHour.png";
-import project5 from "../../assets/curious.jpeg";
+import project6 from "../../assets/curious.jpeg";
 
 function Project() {
   const projects = [
